@@ -1,15 +1,7 @@
-/*
- * @Author: humengchuan 531537052@qq.com
- * @Date: 2023-04-18 14:33:26
- * @LastEditors: humengchuan 531537052@qq.com
- * @LastEditTime: 2023-04-18 15:11:35
- * @FilePath: \react-learn-manager\src\App.tsx
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
- */
 import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
-import './App.css'
+// import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
