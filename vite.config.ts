@@ -9,5 +9,20 @@ export default defineConfig({
     alias: {
       '@': path.resolve(__dirname, './src')
     }
+  },
+  server: {
+    host: '0.0.0.0',
+    port: 5172,
+    // strictPort: true,
+    // cors: true,
+    // hmr: true,
+    // proxy: {
+    //   '/api': {
+    //     target: '',
+    //     ws: false,
+    //     changeOrigin: true,
+    //     rewrite: path => path.replace(/^\/api/, '')
+    //   }
+    // }
   }
 })

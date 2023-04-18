@@ -1,4 +1,7 @@
 import { useState } from 'react'
+import 'antd/dist/reset.css'
+import { Button } from 'antd';
+import { DownOutlined } from '@ant-design/icons'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 // import './App.css'
@@ -9,6 +12,8 @@ function App() {
   return (
     <div className="App">
       顶级组件
+      <Button type="primary">Primary Button</Button>
+      <DownOutlined />
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
